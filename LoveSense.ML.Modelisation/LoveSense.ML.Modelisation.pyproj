@@ -1,0 +1,61 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>eae51b20-db64-4a22-8d28-f03485a19ca2</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>OptimalModel.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>LoveSense.ML.Modelisation</Name>
+    <RootNamespace>LoveSense.ML.Modelisation</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterArguments>
+    </InterpreterArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CleanningCorpus.py" />
+    <Compile Include="ValidationCurve.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DatasSampling.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NamedEntity.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PartsOfSpeech.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SentimentAnalysis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WordCloud.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OptimalModel.py" />
+    <Compile Include="ExperimentModel.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

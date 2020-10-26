@@ -1,0 +1,14 @@
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Service.deps.json
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Service.dll
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Service.pdb
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Domaine.dll
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Infrastructure.dll
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Domaine.pdb
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Domaine.dll.config
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\bin\Debug\netcoreapp2.0\UMetropolis.Infrastructure.pdb
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\obj\Debug\netcoreapp2.0\UMetropolis.Service.csprojAssemblyReference.cache
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\obj\Debug\netcoreapp2.0\UMetropolis.Service.AssemblyInfoInputs.cache
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\obj\Debug\netcoreapp2.0\UMetropolis.Service.AssemblyInfo.cs
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\obj\Debug\netcoreapp2.0\UMetropolis.Service.csproj.CopyComplete
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\obj\Debug\netcoreapp2.0\UMetropolis.Service.dll
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Service\obj\Debug\netcoreapp2.0\UMetropolis.Service.pdb

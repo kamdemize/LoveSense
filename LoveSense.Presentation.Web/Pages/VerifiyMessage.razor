@@ -1,0 +1,70 @@
+﻿@page "/VerifyMessage"
+@using LoveSense.Service
+@using LoveSense.Presentation.Web.Models
+
+@inject IMessageVerificator MessageVerificator
+
+
+<h1>Message verification</h1>
+<hr />
+<EditForm Model="@Message" OnSubmit="FormSubmitted">
+    <div class="form-group row">
+        @*<label for="text" class="col-sm-2 col-form-label">
+                Message to verify
+            </label>*@
+
+        <div class="col-sm-10">
+            <InputTextArea id="text" class="form-control" style="height:300px;" placeholder="Put your message her"
+                           @bind-Value="Message.Text" @onclick="MessageClicked" />
+            <br />
+            <div>
+                @if (!string.IsNullOrEmpty( Message.DescriptionResponse))
+                {
+                    <h3>@Message.DescriptionResponse</h3>
+                }
+
+                <button class="btn btn-primary" type="submit" @onclick="SubmitButtonClicked">
+                    @if (Message.IsInVerify)
+                    {
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    }
+                    Does he/she really love me?
+                </button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private MessageModel Message = new MessageModel();
+
+    private void MessageClicked()
+    {
+        Message.Text = string.Empty;
+        Message.DescriptionResponse = string.Empty;
+    }
+
+    private void SubmitButtonClicked()
+    {
+        Message.IsInVerify = true;
+    }
+
+    void FormSubmitted(EditContext editContext)
+    {
+        var task = Task.Run(async () => await MessageVerificator.VerifyAsync(Message.Text));
+        var resultAsync = task.Result;
+
+        var result = new ResponseVerifyModel()
+        {
+            Status = resultAsync.Status,
+            Verdict = resultAsync.Verdict,
+            Score = resultAsync.Score
+        };
+
+        Message.IsInVerify = false;
+        if (result.Verdict)
+            Message.DescriptionResponse = $"Your lover is probably a good one at {result.Score.ToString("P")}";
+        else
+            Message.DescriptionResponse = $"Your lover is probably a wrong one at {result.Score.ToString("P")}";
+    }
+}

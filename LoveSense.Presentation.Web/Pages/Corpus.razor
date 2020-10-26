@@ -1,0 +1,55 @@
+﻿@page "/corpus"
+@using LoveSense.Service
+@using LoveSense.Presentation.Web.Models
+@using System.Linq
+
+@inject ICorpusExtractor CorpusExtractor
+
+<h1>Active Corpus details</h1>
+
+@if (corpus == null)
+{
+    <div class="text-center">
+        <div class="spinner-border m-5" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date creation</th>
+                <th>Label</th>
+                <th>Text</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var document in corpus)
+            {
+                <tr>
+                    <td>@document.DateCreation.ToShortDateString()</td>
+                    <td>@document.Label</td>
+                    <td>@document.Text</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private IEnumerable<DocumentCorpusModel> corpus;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var corpusAsync = await CorpusExtractor.GetCorpusAsync();
+        corpus = corpusAsync?.Select(x => new DocumentCorpusModel
+        {
+            DateCreation = x.DateCreation,
+            Label = x.Label,
+            Text = x.Text
+        });
+    }
+}

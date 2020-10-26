@@ -1,0 +1,2 @@
+code_experience;type;score;tn;fp;fn;tp;fpr;fnr;precision;rappel;specificite;erreur_model;k;n_components;kernel;n_estimators;n_neighbors;t_training;t_test
+fusion_lg;O;0.792;91;20;21;65;0.18;0.244;0.765;0.756;0.82;41;2000;200;;0;0;3.763;0

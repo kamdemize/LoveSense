@@ -1,0 +1,2 @@
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\LoveSence.ML.Api\obj\Any CPU\Debug\LoveSense.ML.Api.pyproj.CoreCompileInputs.cache
+D:\Activities\Teluq\MTI6012\Dev\toGitHub\LoveSens\LoveSence.ML.Api\obj\Any CPU\Debug\LoveSense.ML.Api.pyproj.CoreCompileInputs.cache

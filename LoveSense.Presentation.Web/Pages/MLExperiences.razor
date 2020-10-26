@@ -1,0 +1,65 @@
+﻿@page "/mlexperience"
+@using LoveSense.Service
+@using LoveSense.Presentation.Web.Models
+
+@inject IExperienceModeler ExperienceModeler
+
+<h1>Machine learning experiences</h1>
+
+@if (mlExperiences == null)
+{
+    <div class="text-center">
+        <div class="spinner-border m-5" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Code</th>
+                <th>Type</th>
+                <th>Score</th>
+                <th>Training Time</th>
+                <th>Test Time</th>
+                <th>Error</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mlExperience in mlExperiences)
+            {
+                <tr>
+                    <td>@mlExperience.DateExperience.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@mlExperience.Code</td>
+                    <td>@mlExperience.ExperienceType</td>
+                    <td>@mlExperience.Score.ToString("P")</td>
+                    <td>@mlExperience.TrainingTime.ToString("F")</td>
+                    <td>@mlExperience.TestTime.ToString("F")</td>
+                    <td>@mlExperience.Error</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<MLExperienceModel> mlExperiences;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var mlExperiencesAsync = await ExperienceModeler.GetMLExperiencesAsync();
+        mlExperiences = mlExperiencesAsync?.Select(x => new MLExperienceModel
+        {
+            Code = x.Code,
+            DateExperience = x.DateExperience,
+            ExperienceType = x.ExperienceType.ToString(),
+            Score = x.Score,
+            TrainingTime = x.TrainingTime,
+            TestTime = x.TestTime,
+            Error = x.Error,
+        });
+    }
+}

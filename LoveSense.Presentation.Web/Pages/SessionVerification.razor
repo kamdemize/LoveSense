@@ -1,0 +1,56 @@
+﻿@page "/session"
+@using LoveSense.Service
+@using LoveSense.Presentation.Web.Models
+
+@inject ISessionVerificator SessionVerificator
+
+<h1>Active sessions details</h1>
+
+@if (sessions == null)
+{
+    <div class="text-center">
+        <div class="spinner-border m-5" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date creation</th>
+                <th>Label</th>
+                <th>Text</th>
+                @*<th>Score</th>*@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var document in sessions)
+            {
+                <tr>
+                    <td>@document.DateSession.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@document.Verdict</td>
+                    <td>@document.Text</td>
+                    @*<td>@document.Score.ToString("P")</td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<SessionVerificationModel> sessions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var sessionsAsync = await SessionVerificator.GetSessionsAsync();
+        sessions = sessionsAsync?.Select(x => new SessionVerificationModel
+        {
+            DateSession = x.DateSession,
+            Verdict = x.Verdict,
+            Score = x.Score,
+            Text = x.Text
+        });
+    }
+}

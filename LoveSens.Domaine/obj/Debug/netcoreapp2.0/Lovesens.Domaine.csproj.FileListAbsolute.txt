@@ -1,0 +1,9 @@
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\bin\Debug\netcoreapp2.0\Lovesens.Domaine.dll.config
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\bin\Debug\netcoreapp2.0\Lovesens.Domaine.deps.json
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\bin\Debug\netcoreapp2.0\Lovesens.Domaine.dll
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\bin\Debug\netcoreapp2.0\Lovesens.Domaine.pdb
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\obj\Debug\netcoreapp2.0\Lovesens.Domaine.csprojAssemblyReference.cache
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\obj\Debug\netcoreapp2.0\Lovesens.Domaine.AssemblyInfoInputs.cache
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\obj\Debug\netcoreapp2.0\Lovesens.Domaine.AssemblyInfo.cs
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\obj\Debug\netcoreapp2.0\Lovesens.Domaine.dll
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Domaine\obj\Debug\netcoreapp2.0\Lovesens.Domaine.pdb

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveSense.Domaine", "Lovesens.Domaine\LoveSense.Domaine.csproj", "{5198CA5E-47E3-409A-8409-86D3E067D71F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveSense.Service", "Lovesens.Service\LoveSense.Service.csproj", "{246C93BE-77F0-467B-960B-88805DE907DB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LoveSense.ML.Api", "LoveSence.ML.Api\LoveSense.ML.Api.pyproj", "{3F0BE7D4-EBC3-4DD3-8A4D-D64D634097B5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LoveSence.ML.Communs", "LoveSence.ML.Communs\LoveSence.ML.Communs.pyproj", "{7F62B734-9460-47DD-92A4-005273E61582}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveSense.Presentation.Web", "LoveSense.Presentation.Web\LoveSense.Presentation.Web.csproj", "{22EEA4FB-15EF-436F-B01E-BDD85DFA12CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveSense.MachineLearning", "LoveSense.MachineLearning", "{F28ED86A-0756-4AAD-BE93-641F933EF6AF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LoveSense.ML.DataAcquisition", "LoveSense.ML.DataAcquisition\LoveSense.ML.DataAcquisition.pyproj", "{67CC2914-7DB4-4F22-918B-7F46608A904F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LoveSense.ML.Modelisation", "LoveSense.ML.Modelisation\LoveSense.ML.Modelisation.pyproj", "{EAE51B20-DB64-4A22-8D28-F03485A19CA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5198CA5E-47E3-409A-8409-86D3E067D71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5198CA5E-47E3-409A-8409-86D3E067D71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5198CA5E-47E3-409A-8409-86D3E067D71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5198CA5E-47E3-409A-8409-86D3E067D71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246C93BE-77F0-467B-960B-88805DE907DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246C93BE-77F0-467B-960B-88805DE907DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246C93BE-77F0-467B-960B-88805DE907DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246C93BE-77F0-467B-960B-88805DE907DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0BE7D4-EBC3-4DD3-8A4D-D64D634097B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0BE7D4-EBC3-4DD3-8A4D-D64D634097B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0BE7D4-EBC3-4DD3-8A4D-D64D634097B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0BE7D4-EBC3-4DD3-8A4D-D64D634097B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F62B734-9460-47DD-92A4-005273E61582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F62B734-9460-47DD-92A4-005273E61582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EEA4FB-15EF-436F-B01E-BDD85DFA12CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EEA4FB-15EF-436F-B01E-BDD85DFA12CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EEA4FB-15EF-436F-B01E-BDD85DFA12CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EEA4FB-15EF-436F-B01E-BDD85DFA12CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CC2914-7DB4-4F22-918B-7F46608A904F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CC2914-7DB4-4F22-918B-7F46608A904F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE51B20-DB64-4A22-8D28-F03485A19CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE51B20-DB64-4A22-8D28-F03485A19CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F0BE7D4-EBC3-4DD3-8A4D-D64D634097B5} = {F28ED86A-0756-4AAD-BE93-641F933EF6AF}
+		{7F62B734-9460-47DD-92A4-005273E61582} = {F28ED86A-0756-4AAD-BE93-641F933EF6AF}
+		{67CC2914-7DB4-4F22-918B-7F46608A904F} = {F28ED86A-0756-4AAD-BE93-641F933EF6AF}
+		{EAE51B20-DB64-4A22-8D28-F03485A19CA2} = {F28ED86A-0756-4AAD-BE93-641F933EF6AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A59F190-A653-426E-956E-E7D6F440428D}
+	EndGlobalSection
+EndGlobal

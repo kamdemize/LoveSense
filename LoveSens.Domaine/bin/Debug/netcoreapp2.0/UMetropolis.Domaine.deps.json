@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "UMetropolis.Domaine/1.0.0": {
+        "runtime": {
+          "UMetropolis.Domaine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UMetropolis.Domaine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Lovesens.Service/1.0.0": {
+        "dependencies": {
+          "Lovesens.Domaine": "1.0.0",
+          "Lovesens.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Lovesens.Service.dll": {}
+        }
+      },
+      "Lovesens.Domaine/1.0.0": {
+        "runtime": {
+          "Lovesens.Domaine.dll": {}
+        }
+      },
+      "Lovesens.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Lovesens.Domaine": "1.0.0"
+        },
+        "runtime": {
+          "Lovesens.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lovesens.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lovesens.Domaine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lovesens.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

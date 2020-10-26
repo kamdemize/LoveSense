@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "UMetropolis.Service/1.0.0": {
+        "dependencies": {
+          "UMetropolis.Domaine": "1.0.0",
+          "UMetropolis.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "UMetropolis.Service.dll": {}
+        }
+      },
+      "UMetropolis.Domaine/1.0.0": {
+        "runtime": {
+          "UMetropolis.Domaine.dll": {}
+        }
+      },
+      "UMetropolis.Infrastructure/1.0.0": {
+        "dependencies": {
+          "UMetropolis.Domaine": "1.0.0"
+        },
+        "runtime": {
+          "UMetropolis.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UMetropolis.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UMetropolis.Domaine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UMetropolis.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

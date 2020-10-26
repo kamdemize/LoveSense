@@ -1,0 +1,9 @@
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\bin\Debug\netcoreapp2.0\UMetropolis.Domaine.dll.config
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\bin\Debug\netcoreapp2.0\UMetropolis.Domaine.deps.json
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\bin\Debug\netcoreapp2.0\UMetropolis.Domaine.dll
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\bin\Debug\netcoreapp2.0\UMetropolis.Domaine.pdb
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\obj\Debug\netcoreapp2.0\UMetropolis.Domaine.csprojAssemblyReference.cache
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\obj\Debug\netcoreapp2.0\UMetropolis.Domaine.AssemblyInfoInputs.cache
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\obj\Debug\netcoreapp2.0\UMetropolis.Domaine.AssemblyInfo.cs
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\obj\Debug\netcoreapp2.0\UMetropolis.Domaine.dll
+D:\Activities\Teluq\MTI6012\Dev\Architecture-Agile-master\UMetropolis\UMetropolis.Domaine\obj\Debug\netcoreapp2.0\UMetropolis.Domaine.pdb

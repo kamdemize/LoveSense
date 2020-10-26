@@ -1,0 +1,14 @@
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Service.deps.json
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Service.dll
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Service.pdb
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Domaine.dll
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Infrastructure.dll
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Domaine.pdb
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Domaine.dll.config
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\bin\Debug\netcoreapp2.0\Lovesens.Infrastructure.pdb
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\obj\Debug\netcoreapp2.0\Lovesens.Service.csprojAssemblyReference.cache
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\obj\Debug\netcoreapp2.0\Lovesens.Service.AssemblyInfoInputs.cache
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\obj\Debug\netcoreapp2.0\Lovesens.Service.AssemblyInfo.cs
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\obj\Debug\netcoreapp2.0\Lovesens.Service.csproj.CopyComplete
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\obj\Debug\netcoreapp2.0\Lovesens.Service.dll
+D:\Activities\Teluq\MTI6012\Dev\LoveSens\Lovesens.Service\obj\Debug\netcoreapp2.0\Lovesens.Service.pdb
